@@ -28,8 +28,13 @@
  
  - calc functions should be divided by task.
  
- - Version of the model is noted as major.minor -> changes of the major value are due to 
- a change of inputs to the model. Changes of the minor values are due to changes only in the code.
+ - Version of the model is noted as major.minor.patch -> 
+    - Changes of the major value are due to  a change of inputs to the model. Meaning
+     that the new version of the model may not be compatible with old assessments and/or new 
+     assessments may not be compatible with old versions of the model
+    - Changes of the minor values are due to changes addition of new functionlity. 
+    Backwards-compatible
+    - Changes in patch are for bugs fixing. Always backwards compatible
  */
 
 var version = 10.01;
