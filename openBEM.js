@@ -36,6 +36,7 @@ var version = 10.01;
 
 var calc = {data: {}};
 
+console.log("debug openBEM");
 
 /******************************************************************
  * RUN
