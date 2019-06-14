@@ -37,7 +37,7 @@
     - Changes in patch are for bugs fixing. Always backwards compatible
  */
 
-var version = 10.01;
+var version = 10.1.1;
 
 var calc = {data: {}};
 
